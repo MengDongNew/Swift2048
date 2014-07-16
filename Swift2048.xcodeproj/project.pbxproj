@@ -7,16 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		161399F719629A980068EFD2 /* ScoreLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161399F619629A980068EFD2 /* ScoreLabel.swift */; };
 		165D6EBE195AC9AB00C48971 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165D6EBD195AC9AB00C48971 /* AppDelegate.swift */; };
 		165D6EC0195AC9AB00C48971 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 165D6EBF195AC9AB00C48971 /* Images.xcassets */; };
 		165D6ECC195AC9AC00C48971 /* Swift2048Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165D6ECB195AC9AC00C48971 /* Swift2048Tests.swift */; };
-		166DDD4419605F10009335A4 /* PlayingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166DDD3F19605F10009335A4 /* PlayingViewController.swift */; };
-		166DDD4519605F10009335A4 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166DDD4019605F10009335A4 /* SettingViewController.swift */; };
-		166DDD4619605F10009335A4 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166DDD4119605F10009335A4 /* TabBarViewController.swift */; };
-		16CCAA631960FDD300ABE942 /* TileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CCAA621960FDD300ABE942 /* TileView.swift */; };
-		16CCAA65196129B500ABE942 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CCAA64196129B500ABE942 /* GameModel.swift */; };
-		16CCAA6719613AE700ABE942 /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CCAA6619613AE700ABE942 /* ControlView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +23,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		161399F619629A980068EFD2 /* ScoreLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreLabel.swift; sourceTree = "<group>"; };
 		165D6EB8195AC9AA00C48971 /* Swift2048.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift2048.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		165D6EBC195AC9AB00C48971 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		165D6EBD195AC9AB00C48971 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,13 +30,6 @@
 		165D6EC5195AC9AB00C48971 /* Swift2048Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Swift2048Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		165D6ECA195AC9AB00C48971 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		165D6ECB195AC9AC00C48971 /* Swift2048Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift2048Tests.swift; sourceTree = "<group>"; };
-		166DDD3F19605F10009335A4 /* PlayingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayingViewController.swift; sourceTree = "<group>"; };
-		166DDD4019605F10009335A4 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
-		166DDD4119605F10009335A4 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
-		16CCAA621960FDD300ABE942 /* TileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TileView.swift; sourceTree = "<group>"; };
-		16CCAA64196129B500ABE942 /* GameModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
-		16CCAA6619613AE700ABE942 /* ControlView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
-		16D5142E196EBAF300637C16 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +71,6 @@
 		165D6EBA195AC9AA00C48971 /* Swift2048 */ = {
 			isa = PBXGroup;
 			children = (
-				166DDD3D19605F0F009335A4 /* Contents */,
 				165D6EBD195AC9AB00C48971 /* AppDelegate.swift */,
 				165D6EBF195AC9AB00C48971 /* Images.xcassets */,
 				165D6EBB195AC9AB00C48971 /* Supporting Files */,
@@ -117,45 +101,6 @@
 				165D6ECA195AC9AB00C48971 /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		166DDD3D19605F0F009335A4 /* Contents */ = {
-			isa = PBXGroup;
-			children = (
-				166DDD3E19605F10009335A4 /* Controllers */,
-				166DDD4219605F10009335A4 /* Models */,
-				166DDD4319605F10009335A4 /* Views */,
-			);
-			path = Contents;
-			sourceTree = "<group>";
-		};
-		166DDD3E19605F10009335A4 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				166DDD4119605F10009335A4 /* TabBarViewController.swift */,
-				16D5142E196EBAF300637C16 /* MyPlayground.playground */,
-				166DDD3F19605F10009335A4 /* PlayingViewController.swift */,
-				166DDD4019605F10009335A4 /* SettingViewController.swift */,
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		166DDD4219605F10009335A4 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				16CCAA64196129B500ABE942 /* GameModel.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		166DDD4319605F10009335A4 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				16CCAA621960FDD300ABE942 /* TileView.swift */,
-				16CCAA6619613AE700ABE942 /* ControlView.swift */,
-				161399F619629A980068EFD2 /* ScoreLabel.swift */,
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,14 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				166DDD4619605F10009335A4 /* TabBarViewController.swift in Sources */,
 				165D6EBE195AC9AB00C48971 /* AppDelegate.swift in Sources */,
-				166DDD4419605F10009335A4 /* PlayingViewController.swift in Sources */,
-				16CCAA631960FDD300ABE942 /* TileView.swift in Sources */,
-				166DDD4519605F10009335A4 /* SettingViewController.swift in Sources */,
-				16CCAA6719613AE700ABE942 /* ControlView.swift in Sources */,
-				16CCAA65196129B500ABE942 /* GameModel.swift in Sources */,
-				161399F719629A980068EFD2 /* ScoreLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,7 +377,6 @@
 				165D6ED1195AC9AC00C48971 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 		165D6ED2195AC9AC00C48971 /* Build configuration list for PBXNativeTarget "Swift2048Tests" */ = {
 			isa = XCConfigurationList;
@@ -448,7 +385,6 @@
 				165D6ED4195AC9AC00C48971 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
